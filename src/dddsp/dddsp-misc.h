@@ -30,7 +30,7 @@ void dddsp_calc_min_max(const float samples[], size_t count, float* min, float* 
 
 void dddsp_double_freq(float* samples, size_t count);
 
-void dddsp_samps_to_freqs(float out_freq[], const float in_sample[], size_t skip, size_t count, int sampleRate);
+void dddsp_samps_to_freqs(float out_freq[], const float in_sample[], ssize_t skip, size_t count, int sampleRate);
 
 int32_t dddsp_median_int32(int32_t a, int32_t b, int32_t c);
 float dddsp_median_float(float a, float b, float c);

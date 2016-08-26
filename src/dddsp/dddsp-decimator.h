@@ -15,6 +15,7 @@ struct dddsp_decimator_s {
 	float offset, scale, error, nanvalue;
 };
 
+
 void dddsp_decimator_mulaw_init(struct dddsp_decimator_s* decimator, float min, float max);
 
 void dddsp_decimator_uint8_init(struct dddsp_decimator_s* decimator, float min, float max);
