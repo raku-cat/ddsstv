@@ -8,6 +8,7 @@
 
 #include <stdio.h>
 #include <stdlib.h>
+#include <stddef.h>
 #include "dddsp.h"
 #include "string.h"
 #include "math.h"
@@ -124,7 +125,7 @@ dddsp_double_freq(float* samples, size_t count)
 }
 
 void
-dddsp_samps_to_freqs(float out_freq[], const float in_sample[], ssize_t skip, size_t count, int sampleRate)
+dddsp_samps_to_freqs(float out_freq[], const float in_sample[], size_t skip, size_t count, int sampleRate)
 {
 	float last_tick=0;
 	float tick=0;

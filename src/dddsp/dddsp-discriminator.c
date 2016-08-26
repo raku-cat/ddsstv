@@ -11,6 +11,7 @@
 #include "dddsp-discriminator.h"
 #include "dddsp-filter.h"
 
+#define M_PI 3.14159265358979323846264338327
 //"Extracting the fundamental frequency from a time-domain signal" is
 //basically a long-winded way of saying "demodulating the baseband
 //signal from FM-encoded signal". Oh wait, that's almost just as long
