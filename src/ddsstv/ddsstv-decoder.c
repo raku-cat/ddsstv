@@ -17,6 +17,8 @@
 
 #define AUTO_ADJUST_SYNC_FREQ 1
 
+#define MIN(X,Y) (((X) < (Y)) ? (X) : (Y))
+#define MAX(X,Y) (((X) > (Y)) ? (X) : (Y))
 
 void
 ddsstv_decoder_init(ddsstv_decoder_t decoder, double ingest_sample_rate)

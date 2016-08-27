@@ -9,7 +9,7 @@
 #include <stdio.h>
 #include "dddsp-misc.h"
 #include "dddsp-decimator.h"
-#include "g711.h"
+#include "g711.c"
 
 void
 dddsp_decimator_mulaw_init(struct dddsp_decimator_s* decimator, float min, float max)

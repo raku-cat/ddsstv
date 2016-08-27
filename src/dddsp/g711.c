@@ -24,6 +24,8 @@
  * Mountain View, California  94043
  */
 
+#include "g711.h"
+
 /*
  * g711.c
  *
